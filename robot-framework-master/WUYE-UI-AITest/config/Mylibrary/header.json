@@ -1,0 +1,10 @@
+{
+"form_header":{"Content-Type":"application/x-www-form-urlencoded"},
+"josn_header":{"Content-Type":"application/json"},
+"text_header": {"Content-Type": "text/plain"},
+"app_get_token_header":{"Authorization":"Bearer ${atoken}"},
+"app_form_token_header":{"Content-Type":"application/x-www-form-urlencoded","Authorization":"Bearer ${atoken}"},
+"app_josn_token_header":{"Content-Type":"application/json","Authorization":"Bearer ${atoken}"},
+"app_text_token_header":{"Content-Type":"text/plain","Authorization":"Bearer ${atoken}"}
+
+}
